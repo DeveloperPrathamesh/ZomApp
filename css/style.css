@@ -1,0 +1,109 @@
+body{
+    background-color: #c3a8f1;
+}
+
+.navbar{
+    background-color:#c68c65;
+    color: white;
+}
+
+.brandname{
+    font-size: 30px;
+}
+#search{
+    height:450px;
+    background-image: url('../images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sechead{
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selectmain{
+    height:50px;
+}
+
+.quickhead{
+    color:#3b2632;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quickhead:hover{
+    font-size:45px;
+    color:green
+}
+
+.subhead{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:gray;
+    line-height: 2;
+}
+
+.category{
+    box-shadow: 10px 20px 10px #3b2632;
+}
+.category:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    width:100%;
+    text-align: center;
+    background-color: #172337;
+    color:#ffffff ;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.foot ul{
+    list-style-type: none;
+    
+}
+
+.foot ul a{
+    color:#ffffff;
+}
+
+.foot{
+    display: inline-block;
+    border-right: 1px solid white;
+    width:32%;
+}
+
+.noborder{
+    border:none;
+}
+
+.footext{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.footext a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.footsocial{
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+.footsocial a img{
+    height:50px;
+    margin-left: 3%;
+}
+
+.footsocial a img:hover{
+    transform: scale(1.1);
+}
