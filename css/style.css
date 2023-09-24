@@ -1,7 +1,6 @@
 body{
-    background-color: #c3a8f1;
+    background-color: wheat;
 }
-
 .navbar{
     background-color:#c68c65;
     color: white;
@@ -10,6 +9,11 @@ body{
 .brandname{
     font-size: 30px;
 }
+
+.modbox{
+    overflow-y: auto;
+}
+
 #search{
     height:450px;
     background-image: url('../images/food-wallpaper.png');
